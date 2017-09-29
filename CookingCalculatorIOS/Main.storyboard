@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="394" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="16" y="410" width="288" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Convert"/>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="396" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" on="YES">
+                                <rect key="frame" x="233" y="139" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <color key="thumbTintColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                    <color key="onTintColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                </variation>
+                            </switch>
+                            <pickerView contentMode="scaleToFill" id="399" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="61" y="107" width="141" height="95"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" id="400" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="56" y="693" width="141" height="102"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1907" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="92" y="235" width="133" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="2347" firstAttribute="width" constant="133"/>
+                                    <constraint id="2348" firstAttribute="height" constant="34"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2347"/>
+                                        <exclude reference="2348"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="2347"/>
+                                        <include reference="2348"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <pickerView contentMode="scaleToFill" id="1909" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="61" y="299" width="141" height="95"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="1910" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" on="YES">
+                                <rect key="frame" x="233" y="331" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <color key="thumbTintColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                    <color key="onTintColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                </variation>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1911" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="56" y="477" width="207" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="20" id="1913" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" textAlignment="center" placeholder="Measurement Amount">
+                                <rect key="frame" x="28" y="59" width="264" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="394"/>
+                                <exclude reference="396"/>
+                                <exclude reference="399"/>
+                                <exclude reference="400"/>
+                                <exclude reference="1907"/>
+                                <exclude reference="1909"/>
+                                <exclude reference="1910"/>
+                                <exclude reference="1911"/>
+                                <exclude reference="1913"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2345"/>
+                                <exclude reference="2346"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="394"/>
+                                <include reference="396"/>
+                                <include reference="399"/>
+                                <include reference="400"/>
+                                <include reference="1907"/>
+                                <include reference="1909"/>
+                                <include reference="1910"/>
+                                <include reference="1911"/>
+                                <include reference="1913"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2345"/>
+                                <include reference="2346"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="2345" firstItem="1907" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="92"/>
+                            <constraint id="2346" firstItem="1907" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="235"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ConvertButton" destination="394" id="name-outlet-394"/>
+                        <outlet property="MeasurementTypeSwitch1" destination="396" id="name-outlet-396"/>
+                        <outlet property="MeasurementTypePicker1" destination="399" id="name-outlet-399"/>
+                        <outlet property="ConvertedLabel" destination="1911" id="name-outlet-1911"/>
+                        <outlet property="MeasurementTypePicker2" destination="1909" id="name-outlet-1909"/>
+                        <outlet property="MeasurementTypeSwitch2" destination="1910" id="name-outlet-1910"/>
+                        <outlet property="AmountLabel" destination="1913" id="name-outlet-1913"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedOrientationMetrics key="orientation"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookingCalculatorIOS", "CookingCalculatorIOS\CookingCalculatorIOS.csproj", "{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{FABB1557-CEFE-4728-96BE-75962E892456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Release|iPhone.Build.0 = Release|iPhone
+		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/bin/iPhoneSimulator/Debug/CookingCalculatorIOS.exe
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/bin/iPhoneSimulator/Debug/CookingCalculatorIOS.pdb
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.0/ibtool/_BundleResourceWithLogicalName.items
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.0/actool/_PartialAppManifest.items
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.0/actool/_BundleResourceWithLogicalName.items
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhoneSimulator/Debug/device-builds/iphone6.1-11.0/optimized/
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhoneSimulator/Debug/CookingCalculatorIOS.csproj.CoreCompileInputs.cache
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhoneSimulator/Debug/CookingCalculatorIOS.exe
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhoneSimulator/Debug/CookingCalculatorIOS.pdb

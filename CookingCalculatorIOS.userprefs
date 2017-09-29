@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/UnitConverter.cs">
+    <Files>
+      <File FileName="CookingCalculatorIOS/ViewController.cs" Line="58" Column="72" />
+      <File FileName="CookingCalculatorIOS/Main.storyboard" />
+      <File FileName="CookingCalculatorIOS/MeasurementViewModel.cs" Line="15" Column="10" />
+      <File FileName="CookingCalculatorIOS/Main.cs" Line="12" Column="1" />
+      <File FileName="Shared/UnitConverter.cs" Line="29" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CookingCalculatorIOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CF7715E7-0807-41AA-B55C-53F6A82EC791">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.CookingCalculatorIOS>
+  <MultiItemStartupConfigurations />
+</Properties>
