@@ -40,15 +40,40 @@ namespace Shared
 
 		static public double Convert(double amount, string unit1, string unit2) 
         {
-            double result = 0;
+            double result = -1;
 			// Imperial to Imperial
 			if(CheckUnitType(unit1).Equals("imperial") && CheckUnitType(unit2).Equals("imperial")) 
             {
-                
+                switch(unit2.ToLower()) 
+                {
+                    case "teaspoons":
+                        result = ConvertToTeaspoons(unit1, amount);
+                        break;
+					case "tablespoons":
+                        result = ConvertToTablespoons(unit1, amount);
+						break;
+					case "cups":
+						result = ConvertToCups(unit1, amount);
+						break;
+					case "quarts":
+                        result = ConvertToQuarts(unit1, amount);
+						break;
+					case "gallons":
+						result = ConvertToGallons(unit1, amount);
+						break;
+                }
             }
 			// Metric to Metric
 			else if(CheckUnitType(unit1).Equals("metric") && CheckUnitType(unit2).Equals("metric"))
             {
+                if (unit2.ToLower().Equals("liters"))
+                {
+                    result = amount / 1000;
+                }
+                else
+                {
+                    result = amount * 1000;
+                }
                 
             }
 			// Imperial to Metric
@@ -64,7 +89,7 @@ namespace Shared
                 // Convert to Milliters
                 result = amount * MLINTSP;
                 // If Liters convert to Liters
-                if(unit2.Equals("Liters")) 
+                if(unit2.ToLower().Equals("liters")) 
                 {
                     result /= 1000;    
                 }
@@ -73,6 +98,35 @@ namespace Shared
 			// Metric to Imperial
 			else 
             {
+                // Convert the amount to milliliters
+				if (unit1.ToLower().Equals("liters"))
+				{
+					amount *= 1000;
+				}
+
+                // Convert to teaspoons
+                amount = amount / MLINTSP;
+
+				switch (unit2.ToLower())
+				{
+					case "teaspoons":
+						result = amount;
+						break;
+					case "tablespoons":
+						result = ConvertToTablespoons("teaspoons", amount);
+						break;
+					case "cups":
+						result = ConvertToCups("teaspoons", amount);
+						break;
+					case "quarts":
+						result = ConvertToQuarts("teaspoons", amount);
+						break;
+					case "gallons":
+						result = ConvertToGallons("teaspoons", amount);
+						break;
+				}
+
+
                 
             }
 
@@ -110,17 +164,17 @@ namespace Shared
 		{
 			switch (imperialUnit.ToLower())
 			{
-				case "tablespoons":
-					amount = TSPINTBSP * amount;
+				case "teaspoons":
+                    amount = TBSPINTSP * amount;
 					break;
 				case "cups":
-					amount = TSPINCUPS * amount;
+					amount = TBSPINCUPS * amount;
 					break;
 				case "quarts":
-					amount = TSPINQUARTS * amount;
+					amount = TBSPINQUARTS * amount;
 					break;
 				case "gallons":
-					amount = TSPINGALLONS * amount;
+					amount = TBSPINGALLONS * amount;
 					break;
 			}
 
@@ -134,17 +188,17 @@ namespace Shared
 		{
 			switch (imperialUnit.ToLower())
 			{
-				case "tablespoons":
-					amount = TSPINTBSP * amount;
+				case "teaspoons":
+                    amount = CUPSINTSP * amount;
 					break;
-				case "cups":
-					amount = TSPINCUPS * amount;
+				case "tablespoons":
+                    amount = CUPSINTBSP * amount;
 					break;
 				case "quarts":
-					amount = TSPINQUARTS * amount;
+					amount = CUPSINQUARTS * amount;
 					break;
 				case "gallons":
-					amount = TSPINGALLONS * amount;
+					amount = CUPSINGALLONS * amount;
 					break;
 			}
 
@@ -158,17 +212,17 @@ namespace Shared
 		{
 			switch (imperialUnit.ToLower())
 			{
+				case "teaspoons":
+                    amount = QUARTSINTSP * amount;
+					break;
 				case "tablespoons":
-					amount = TSPINTBSP * amount;
+                    amount = QUARTSINTBSP * amount;
 					break;
 				case "cups":
-					amount = TSPINCUPS * amount;
-					break;
-				case "quarts":
-					amount = TSPINQUARTS * amount;
+                    amount = QUARTSINCUPS * amount;
 					break;
 				case "gallons":
-					amount = TSPINGALLONS * amount;
+                    amount = QUARTSINGALLONS * amount;
 					break;
 			}
 
@@ -182,17 +236,17 @@ namespace Shared
 		{
 			switch (imperialUnit.ToLower())
 			{
+				case "teaspoons":
+                    amount = GALLONSINTSP * amount;
+					break;
 				case "tablespoons":
-					amount = TSPINTBSP * amount;
+                    amount = GALLONSINTBSP * amount;
 					break;
 				case "cups":
-					amount = TSPINCUPS * amount;
+                    amount = GALLONSINCUPS * amount;
 					break;
 				case "quarts":
-					amount = TSPINQUARTS * amount;
-					break;
-				case "gallons":
-					amount = TSPINGALLONS * amount;
+                    amount = GALLONSINQUARTS * amount;
 					break;
 			}
 
