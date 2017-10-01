@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookingCalculatorIOS", "Coo
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{FABB1557-CEFE-4728-96BE-75962E892456}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{BAB00135-DE7C-4226-BF47-F31CB8D6F6B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -21,5 +23,13 @@ Global
 		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}.Debug|iPhone.Build.0 = Debug|iPhone
+		{BAB00135-DE7C-4226-BF47-F31CB8D6F6B4}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{BAB00135-DE7C-4226-BF47-F31CB8D6F6B4}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{BAB00135-DE7C-4226-BF47-F31CB8D6F6B4}.Release|iPhone.ActiveCfg = Release|iPhone
+		{BAB00135-DE7C-4226-BF47-F31CB8D6F6B4}.Release|iPhone.Build.0 = Release|iPhone
+		{BAB00135-DE7C-4226-BF47-F31CB8D6F6B4}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{BAB00135-DE7C-4226-BF47-F31CB8D6F6B4}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{BAB00135-DE7C-4226-BF47-F31CB8D6F6B4}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{BAB00135-DE7C-4226-BF47-F31CB8D6F6B4}.Debug|iPhone.Build.0 = Debug|iPhone
 	EndGlobalSection
 EndGlobal

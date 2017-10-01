@@ -1,11 +1,16 @@
 ﻿<Properties StartupConfiguration="{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}|Default">
   <MonoDevelop.Ide.ItemProperties.Shared HideGettingStarted="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/UnitConverter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/ConverterTests.cs">
     <Files>
       <File FileName="CookingCalculatorIOS/ViewController.cs" Line="65" Column="14" />
-      <File FileName="Shared/UnitConverter.cs" Line="29" Column="44" />
+      <File FileName="Shared/UnitConverter.cs" Line="125" Column="44" />
+      <File FileName="Tests/UnitTestAppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Tests/ConverterTests.cs" Line="31" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Tests>
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Tests>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

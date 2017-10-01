@@ -1,0 +1,10 @@
+/Users/deric/Projects/CookingCalculatorIOS/Tests/bin/iPhoneSimulator/Debug/Tests.exe
+/Users/deric/Projects/CookingCalculatorIOS/Tests/bin/iPhoneSimulator/Debug/Tests.pdb
+/Users/deric/Projects/CookingCalculatorIOS/Tests/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/deric/Projects/CookingCalculatorIOS/Tests/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/deric/Projects/CookingCalculatorIOS/Tests/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/deric/Projects/CookingCalculatorIOS/Tests/obj/iPhoneSimulator/Debug/optimized/
+/Users/deric/Projects/CookingCalculatorIOS/Tests/obj/iPhoneSimulator/Debug/Tests.csproj.CoreCompileInputs.cache
+/Users/deric/Projects/CookingCalculatorIOS/Tests/obj/iPhoneSimulator/Debug/Tests.exe
+/Users/deric/Projects/CookingCalculatorIOS/Tests/obj/iPhoneSimulator/Debug/Tests.pdb
+/Users/deric/Projects/CookingCalculatorIOS/Tests/obj/iPhoneSimulator/Debug/Tests.csprojResolveAssemblyReference.cache

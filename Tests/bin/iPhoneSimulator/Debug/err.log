@@ -1,0 +1,23 @@
+objc[17920]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x11c7a1490) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x11c62afc0). One of the two will be used. Which one is undefined.
+objc[17920]: Class SFUserNotification is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Sharing.framework/Sharing (0x1288054c8) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/SafariServices.framework/SafariServices (0x10af962f0). One of the two will be used. Which one is undefined.
+2017-09-30 16:24:09.419 Tests[17920:3169217] Xamarin.iOS: Socket error while connecting to IDE on 127.0.0.1:57655: Connection refused
+2017-09-30 16:24:11.688 Tests[17920:3169196] [Runner executing:	Run Everything]
+2017-09-30 16:24:11.688 Tests[17920:3169196] [MonoTouch Version:	11.0.0]
+2017-09-30 16:24:11.688 Tests[17920:3169196] [Assembly:	Xamarin.iOS.dll (64 bits)]
+2017-09-30 16:24:11.689 Tests[17920:3169196] [GC:	sgen]
+2017-09-30 16:24:11.689 Tests[17920:3169196] [iPhone:	iOS v11.0]
+2017-09-30 16:24:11.690 Tests[17920:3169196] [Device Name:	Deric’s MacBook Pro]
+2017-09-30 16:24:11.691 Tests[17920:3169196] [Device UDID:	unknown]
+2017-09-30 16:24:11.695 Tests[17920:3169196] [Device Locale:	en_US]
+2017-09-30 16:24:11.701 Tests[17920:3169196] [Device Date/Time:	9/30/2017 4:24:11 PM]
+2017-09-30 16:24:11.704 Tests[17920:3169196] [Bundle:	com.programmingplum.Tests]
+2017-09-30 16:24:11.707 Tests[17920:3169196] 
+2017-09-30 16:24:11.709 Tests[17920:3169196] Tests.exe
+2017-09-30 16:24:11.710 Tests[17920:3169196] ConverterTests
+2017-09-30 16:24:11.721 Tests[17920:3169196] 	[PASS] ConverterTests.ImperialToImperial
+2017-09-30 16:24:11.728 Tests[17920:3169196] 	[PASS] ConverterTests.ImperialToMetric
+2017-09-30 16:24:11.728 Tests[17920:3169196] 	[PASS] ConverterTests.MetricToImperial
+2017-09-30 16:24:11.728 Tests[17920:3169196] 	[PASS] ConverterTests.MetricToMetric
+2017-09-30 16:24:11.729 Tests[17920:3169196] ConverterTests : 19 ms
+2017-09-30 16:24:11.730 Tests[17920:3169196] Tests.exe : 21 ms
+2017-09-30 16:24:11.734 Tests[17920:3169196] Tests run: 4 Passed: 4 Inconclusive: 0 Failed: 0 Ignored: 0
