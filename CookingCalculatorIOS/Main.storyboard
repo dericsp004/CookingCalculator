@@ -14,127 +14,238 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="394" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="16" y="410" width="288" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="394" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="17" y="419" width="287" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Convert"/>
                             </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="396" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" on="YES">
-                                <rect key="frame" x="233" y="139" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <pickerView contentMode="scaleToFill" id="399" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="48" y="165.5" width="197" height="100"/>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <color key="thumbTintColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
-                                    <color key="onTintColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                    <mask key="constraints">
+                                        <include reference="17103"/>
+                                    </mask>
                                 </variation>
-                            </switch>
-                            <pickerView contentMode="scaleToFill" id="399" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="61" y="107" width="141" height="95"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
-                            <pickerView contentMode="scaleToFill" id="400" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="56" y="693" width="141" height="102"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint id="17103" firstItem="399" firstAttribute="height" constant="100"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="17103"/>
+                                    </mask>
+                                </variation>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1907" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="92" y="235" width="133" height="34"/>
+                                <rect key="frame" x="94" y="283.5" width="189" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <constraints>
-                                    <constraint id="2347" firstAttribute="width" constant="133"/>
-                                    <constraint id="2348" firstAttribute="height" constant="34"/>
+                                    <constraint id="17094" firstItem="1907" firstAttribute="height" constant="34"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="2347"/>
-                                        <exclude reference="2348"/>
+                                        <exclude reference="17094"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="2347"/>
-                                        <include reference="2348"/>
+                                        <include reference="17094"/>
                                     </mask>
                                 </variation>
                             </label>
-                            <pickerView contentMode="scaleToFill" id="1909" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="61" y="299" width="141" height="95"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <pickerView contentMode="scaleToFill" id="1909" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="48" y="325.5" width="197" height="100"/>
+                                <constraints>
+                                    <constraint id="17107" firstItem="1909" firstAttribute="height" constant="100"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="17107"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="17107"/>
+                                    </mask>
+                                </variation>
                             </pickerView>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="1910" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" on="YES">
-                                <rect key="frame" x="233" y="331" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="1910" translatesAutoresizingMaskIntoConstraints="NO" on="YES">
+                                <rect key="frame" x="285" y="359" width="51" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <color key="thumbTintColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
                                     <color key="onTintColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                    <mask key="constraints">
+                                        <include reference="17111"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="17111" firstItem="1910" firstAttribute="width" constant="49"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="17111"/>
+                                    </mask>
                                 </variation>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1911" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="56" y="477" width="207" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1911" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="16" y="468" width="288" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="20" id="1913" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" textAlignment="center" placeholder="Measurement Amount">
-                                <rect key="frame" x="28" y="59" width="264" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="20" id="1913" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" placeholder="Measurement Amount">
+                                <rect key="frame" x="17" y="116.5" width="343" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <variation key="heightClass=regular-widthClass=compact" preservesSuperviewLayoutMargins="YES">
+                                    <mask key="constraints">
+                                        <include reference="19409"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="19409" firstAttribute="width" secondItem="1913" secondAttribute="height" multiplier="48:5"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="19409"/>
+                                    </mask>
+                                </variation>
                             </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="16200" translatesAutoresizingMaskIntoConstraints="NO" on="YES">
+                                <rect key="frame" x="285" y="202" width="51" height="31"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <color key="thumbTintColor" colorSpace="calibratedRGB" red="0" green="0" blue="1" alpha="1"/>
+                                    <color key="onTintColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                    <mask key="constraints">
+                                        <include reference="17100"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="17100" firstItem="16200" firstAttribute="width" constant="49"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="17100"/>
+                                    </mask>
+                                </variation>
+                            </switch>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="394"/>
-                                <exclude reference="396"/>
                                 <exclude reference="399"/>
-                                <exclude reference="400"/>
                                 <exclude reference="1907"/>
                                 <exclude reference="1909"/>
                                 <exclude reference="1910"/>
                                 <exclude reference="1911"/>
                                 <exclude reference="1913"/>
+                                <exclude reference="16200"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="2345"/>
-                                <exclude reference="2346"/>
+                                <exclude reference="16669"/>
+                                <exclude reference="16670"/>
+                                <exclude reference="17092"/>
+                                <exclude reference="17093"/>
+                                <exclude reference="17095"/>
+                                <exclude reference="17096"/>
+                                <exclude reference="17097"/>
+                                <exclude reference="17098"/>
+                                <exclude reference="17105"/>
+                                <exclude reference="17106"/>
+                                <exclude reference="17108"/>
+                                <exclude reference="17109"/>
+                                <exclude reference="17112"/>
+                                <exclude reference="17148"/>
+                                <exclude reference="17149"/>
+                                <exclude reference="17150"/>
+                                <exclude reference="17151"/>
+                                <exclude reference="17152"/>
+                                <exclude reference="17153"/>
+                                <exclude reference="17154"/>
+                                <exclude reference="17155"/>
+                                <exclude reference="19407"/>
+                                <exclude reference="19408"/>
+                                <exclude reference="19448"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="394"/>
-                                <include reference="396"/>
                                 <include reference="399"/>
-                                <include reference="400"/>
                                 <include reference="1907"/>
                                 <include reference="1909"/>
                                 <include reference="1910"/>
                                 <include reference="1911"/>
                                 <include reference="1913"/>
+                                <include reference="16200"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="2345"/>
-                                <include reference="2346"/>
+                                <include reference="16669"/>
+                                <include reference="16670"/>
+                                <include reference="17092"/>
+                                <include reference="17093"/>
+                                <include reference="17095"/>
+                                <include reference="17096"/>
+                                <include reference="17097"/>
+                                <include reference="17098"/>
+                                <include reference="17105"/>
+                                <include reference="17106"/>
+                                <include reference="17108"/>
+                                <include reference="17109"/>
+                                <include reference="17112"/>
+                                <include reference="17148"/>
+                                <include reference="17149"/>
+                                <include reference="17150"/>
+                                <include reference="17151"/>
+                                <include reference="17152"/>
+                                <include reference="17153"/>
+                                <include reference="17154"/>
+                                <include reference="17155"/>
+                                <include reference="19407"/>
+                                <include reference="19408"/>
+                                <include reference="19448"/>
                             </mask>
                         </variation>
                         <constraints>
-                            <constraint id="2345" firstItem="1907" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="92"/>
-                            <constraint id="2346" firstItem="1907" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="235"/>
+                            <constraint id="16669" firstItem="1913" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="1"/>
+                            <constraint id="16670" firstItem="1913" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="1"/>
+                            <constraint id="17092" firstItem="1907" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="78"/>
+                            <constraint id="17093" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="1907" secondAttribute="trailing" constant="76"/>
+                            <constraint id="17095" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="1907" secondAttribute="centerY" constant="33"/>
+                            <constraint id="17096" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="16200" secondAttribute="trailing" constant="25"/>
+                            <constraint id="17097" firstItem="399" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32"/>
+                            <constraint id="17098" firstItem="16200" firstAttribute="leading" secondItem="399" secondAttribute="trailing" constant="40"/>
+                            <constraint id="17105" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="1910" secondAttribute="trailing" constant="25"/>
+                            <constraint id="17106" firstItem="1909" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32"/>
+                            <constraint id="17108" firstItem="1909" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="42"/>
+                            <constraint id="17109" firstItem="1910" firstAttribute="leading" secondItem="1909" secondAttribute="trailing" constant="40"/>
+                            <constraint id="17112" firstItem="1910" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="41"/>
+                            <constraint id="17148" firstItem="394" firstAttribute="top" secondItem="1909" secondAttribute="bottom" constant="43"/>
+                            <constraint id="17149" firstItem="394" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="1"/>
+                            <constraint id="17150" firstItem="394" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin"/>
+                            <constraint id="17151" firstItem="394" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="155"/>
+                            <constraint id="17152" firstItem="1911" firstAttribute="top" secondItem="394" secondAttribute="bottom" constant="9"/>
+                            <constraint id="17153" firstItem="1911" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="204"/>
+                            <constraint id="17154" firstItem="394" firstAttribute="leading" secondItem="1911" secondAttribute="leading" constant="1"/>
+                            <constraint id="17155" firstItem="1911" firstAttribute="trailing" secondItem="394" secondAttribute="trailing"/>
+                            <constraint id="19407" firstItem="1907" firstAttribute="centerY" secondItem="399" secondAttribute="centerY" constant="85"/>
+                            <constraint id="19408" firstItem="1907" firstAttribute="centerY" secondItem="16200" secondAttribute="centerY" constant="83"/>
+                            <constraint id="19448" firstItem="399" firstAttribute="top" secondItem="1913" secondAttribute="centerY" constant="31"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="ConvertButton" destination="394" id="name-outlet-394"/>
-                        <outlet property="MeasurementTypeSwitch1" destination="396" id="name-outlet-396"/>
                         <outlet property="MeasurementTypePicker1" destination="399" id="name-outlet-399"/>
                         <outlet property="ConvertedLabel" destination="1911" id="name-outlet-1911"/>
                         <outlet property="MeasurementTypePicker2" destination="1909" id="name-outlet-1909"/>
                         <outlet property="MeasurementTypeSwitch2" destination="1910" id="name-outlet-1910"/>
                         <outlet property="AmountLabel" destination="1913" id="name-outlet-1913"/>
+                        <outlet property="MeasurementTypeSwitch1" destination="16200" id="name-outlet-16200"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -143,7 +254,6 @@
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina47"/>
     </simulatedMetricsContainer>
 </document>
