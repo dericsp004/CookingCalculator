@@ -11,7 +11,8 @@ namespace CookingCalculatorIOS
 
         public MeasurementViewModel(List<string> list)  
         {
-            this.list = list;    
+            selectedUnit = list[0];
+            this.list = list;
         }
 
         public override System.nint GetRowsInComponent(UIPickerView pickerView, System.nint component)
@@ -26,7 +27,15 @@ namespace CookingCalculatorIOS
 
         public override string GetTitle(UIPickerView pickerView, System.nint row, System.nint component)
         {
-            return list[(int)row];
+            //if (row == null)
+            //{
+            //    // Set the default selected unit
+            //    //selectedUnit = list[0];
+            //}
+            //else 
+            //{
+                return list[(int)row];
+            //}
         }
 
         public override void Selected(UIPickerView pickerView, System.nint row, System.nint component)

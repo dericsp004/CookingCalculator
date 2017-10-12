@@ -22,6 +22,8 @@ namespace CookingCalculatorIOS
             "Liters"
         };
 
+        private Dictionary<string, string> abbreviations = new Dictionary<string, string>();
+
 		/**************************************************************
         * IOS Methods
         **************************************************************/
@@ -39,6 +41,14 @@ namespace CookingCalculatorIOS
             ConvertButton.TouchUpInside+= ConvertButton_TouchUpInside;
             MeasurementTypeSwitch1.TouchUpInside+= MeasurementTypeSwitch_TouchUpInside;
             MeasurementTypeSwitch2.TouchUpInside+= MeasurementTypeSwitch_TouchUpInside;
+
+            abbreviations.Add(imperialList[0], "tsps");
+            abbreviations.Add(imperialList[1], "tbsps");
+            abbreviations.Add(imperialList[2], "cups");
+            abbreviations.Add(imperialList[3], "qts");
+            abbreviations.Add(imperialList[4], "gals");
+            abbreviations.Add(metricList[0], "ml");
+            abbreviations.Add(metricList[1], "li");
         }
 
 		public override void TouchesBegan(Foundation.NSSet touches, UIEvent evt)
@@ -61,9 +71,12 @@ namespace CookingCalculatorIOS
 			MeasurementViewModel model1 = (CookingCalculatorIOS.MeasurementViewModel)MeasurementTypePicker1.Model;
 			MeasurementViewModel model2 = (CookingCalculatorIOS.MeasurementViewModel)MeasurementTypePicker2.Model;
 
-            if (AmountLabel.Text != String.Empty && (model1.selectedUnit != null) && (model2.selectedUnit != null))
+            if ((AmountLabel.Text != String.Empty) 
+                && (model1.selectedUnit != null ) 
+                && (model2.selectedUnit != null ))
             {
-                ConvertedLabel.Text = UnitConverter.Convert(Double.Parse(AmountLabel.Text), model1.selectedUnit, model2.selectedUnit).ToString();
+                double finalAmount = UnitConverter.Convert(Double.Parse(AmountLabel.Text), model1.selectedUnit, model2.selectedUnit);
+                ConvertedLabel.Text = string.Format("{0:0.00} {1}", finalAmount, abbreviations[model2.selectedUnit]);
             }
             else
             {
@@ -112,6 +125,7 @@ namespace CookingCalculatorIOS
 		private void setupPicker(UIPickerView picker, List<string> list)
 		{
 			picker.Model = new MeasurementViewModel(list);
+            picker.Select(0, 0, false);
 		}
 
 		/**************************************************************
