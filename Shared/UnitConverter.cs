@@ -66,13 +66,17 @@ namespace Shared
 			// Metric to Metric
 			else if(CheckUnitType(unit1).Equals("metric") && CheckUnitType(unit2).Equals("metric"))
             {
-                if (unit2.ToLower().Equals("liters"))
+                if (unit2.ToLower().Equals("liters") && !unit1.ToLower().Equals("liters"))
                 {
                     result = amount / 1000;
                 }
-                else
+                else if (unit2.ToLower().Equals("milliliters") && !unit1.ToLower().Equals("milliliters"))
                 {
                     result = amount * 1000;
+                }
+                else 
+                {
+                    result = amount;
                 }
                 
             }

@@ -84,8 +84,9 @@ namespace CookingCalculatorIOS
 				errorAlert.AddAction(UIAlertAction.Create("Cancel", UIAlertActionStyle.Cancel, alert => Console.WriteLine("Cancel was clicked")));
 
                 PresentViewController(errorAlert, true, null);
-
 			}
+
+            this.View.EndEditing(true);
         }
 
 		/**************************************************************
