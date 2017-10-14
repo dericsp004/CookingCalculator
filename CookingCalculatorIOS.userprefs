@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{ED111A3C-C24F-4C2B-92F4-B28CBF71896A}|Default">
   <MonoDevelop.Ide.ItemProperties.Shared HideGettingStarted="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/UnitConverter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CookingCalculatorIOS/Main.storyboard">
     <Files>
       <File FileName="CookingCalculatorIOS/Main.storyboard" />
-      <File FileName="CookingCalculatorIOS/ViewController.cs" Line="89" Column="40" />
-      <File FileName="CookingCalculatorIOS/Main.cs" Line="12" Column="1" />
-      <File FileName="CookingCalculatorIOS/MeasurementViewModel.cs" Line="13" Column="10" />
-      <File FileName="Shared/UnitConverter.cs" Line="1" Column="1" />
+      <File FileName="CookingCalculatorIOS/Info.plist" />
+      <File FileName="Tests/LaunchScreen.storyboard" />
+      <File FileName="CookingCalculatorIOS/LaunchScreen.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Tests>
+  <MonoDevelop.Ide.ItemProperties.Tests PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ED9FB891-A89E-4953-95BA-6DDEA7BC5669">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.Tests>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -17,7 +16,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CookingCalculatorIOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BC07A9EA-877B-4F1E-869D-A81CE7FCFD2E">
+  <MonoDevelop.Ide.ItemProperties.CookingCalculatorIOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6D7B4E7E-CB07-46B2-8A5C-A5B93DB8591C">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.CookingCalculatorIOS>
   <MultiItemStartupConfigurations />

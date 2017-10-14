@@ -1,0 +1,4 @@
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/bin/iPhone/Release/CookingCalculatorIOS.app:/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhone/Release/mtouch-cache/64/Link/CookingCalculatorIOS.exe
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/bin/iPhone/Release/CookingCalculatorIOS.app:/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhone/Release/mtouch-cache/64/Link/mscorlib.dll
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/bin/iPhone/Release/CookingCalculatorIOS.app:/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhone/Release/mtouch-cache/64/Link/Xamarin.iOS.dll
+/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/bin/iPhone/Release/CookingCalculatorIOS.app:/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhone/Release/mtouch-cache/64/Link/System.dll

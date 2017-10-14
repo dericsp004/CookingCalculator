@@ -38,7 +38,7 @@
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
-    <MtouchArch>ARM64</MtouchArch>
+    <MtouchArch>ARMv7, ARMv7s, ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
@@ -85,6 +85,20 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 167x167.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 40x40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 60x60.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 58x58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 87x87.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 80x80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Quick Cook 120x120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 180x180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 76x76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 152x152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 1024x1024.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 20x20.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Cook Quick 29x29.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

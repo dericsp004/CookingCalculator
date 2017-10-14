@@ -1,0 +1,8 @@
+Function=xamarin_timezone_get_data
+	/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhone/Release/mtouch-cache/32/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhone/Release/mtouch-cache/32/Link/mscorlib.dll
+Function=xamarin_get_block_descriptor
+	/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhone/Release/mtouch-cache/32/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/deric/Projects/CookingCalculatorIOS/CookingCalculatorIOS/obj/iPhone/Release/mtouch-cache/32/Link/Xamarin.iOS.dll
